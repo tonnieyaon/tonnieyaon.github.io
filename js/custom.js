@@ -9,7 +9,7 @@ $(document).ready(function() {
 
 
 // cowntdown function. Set the date by modifying the date in next line (June 1, 2012 00:00:00):
-	var austDay = new Date("January 1, 2022 00:00:00");
+	var austDay = new Date("October 1, 2022 00:00:00");
 		$('#countdown').countdown({until: austDay, layout: '<div class="item"><p>{dn}</p> {dl}<div class="lines"></div></div> <div class="item"><p>{hn}</p> {hl}<div class="lines"></div></div> <div class="item"><p>{mn}</p> {ml}<div class="lines"></div></div> <div class="item"><p>{sn}</p> {sl}</div>'});
 		$('#year').text(austDay.getFullYear());
 			
